@@ -1,0 +1,44 @@
+---
+title: "Evaluating Car Crash Incidents in Philadelphia"
+subtitle: "BMIN5030 Final Project"
+author: "Tanis Dorwart"
+format: html
+editor: visual
+theme: litera
+number-sections: true
+embed-resources: true
+---
+
+------------------------------------------------------------------------
+
+## Overview {#sec-overview}
+
+Give a brief a description of your project and its goal(s), what data you are using to complete it, and what two faculty/staff in different fields you have spoken to about your project with a brief summary of what you learned from each person. Include a link to your final project GitHub repository.
+
+This project seeks to analyze and highlight areas within Philadelphia where car accidents are prevalent and suggests strategies to improve traffic safety in these regions. Data used to produce this analysis was sourced from OpenDataPhilly, using their [Crash Data 2020-2024](https://opendataphilly.org/datasets/crashes/) dataset. City limit boundaries which are utilized for the geospatial maps were obtained from [here](https://opendataphilly.org/datasets/city-limits/).
+
+Speaking with \_\_ provided insight into \_\_.
+
+Follow the link [here](https://github.com/tanisdorwart/final-project) to access the GitHub repository.
+
+## Introduction {#sec-introduction}
+
+Describe the problem addressed, its significance, and some background to motivate the problem. This should extend what is in the @sec-overview.
+
+Over the last five years, over 36,000 car accidents have occurred in and around Philadelphia. While the annual number of crashes is decreasing, additional steps to increase the safety of drivers, pedestrians, and passengers can be improved upon. Of those 36,000 car crashes, over 600 lives were lost due to these accidents.
+
+Explain why your problem is interdisciplinary, what fields can contribute to its understanding, and incorporate background related to what you learned from meeting with faculty/staff.
+
+Philadelphia is a very diverse, highly trafficked city. It is to be expected that certain areas with higher traffic volumes have an increased likelihood of accidents. I sought to find out if there were particular trends regarding factors like time of day or weather which make accidents more likely. Additionally, by plotting where these accidents occur, I can identify areas of Philadelphia which need enhanced safety precautions to decrease the likelihood of accidents.
+
+## Methods {#sec-methods}
+
+Describe the data used and general methodological approach used to address the problem described in the @sec-introduction. Subsequently, incorporate full R code necessary to retrieve and clean data, and perform analysis. Be sure to include a description of code so that others (including your future self) can understand what you are doing and why.
+
+## Results {#sec-results}
+
+Describe your results and include relevant tables, plots, and code/comments used to obtain them. You may refer to the @sec-methods as needed. End with a brief conclusion of your findings related to the question you set out to address. You can include references if you'd like, but this is not required.
+
+## Conclusion
+
+This the conclusion. The @sec-results can be invoked here.
